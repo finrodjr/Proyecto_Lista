@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue_light"
+    >
+    <TextView
+
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:background="@color/cyan"
+        android:textColor="@color/white"
+
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/nombre"
+        android:drawablePadding="4dp">
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Teléfono"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/tel"
+        android:drawablePadding="4dp">
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="4dp">
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción del contacto"
+        android:inputType="textMultiLine"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/descripcion"
+        android:drawablePadding="4dp">
+        >
+
+
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/Picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:datePickerMode="calendar"
+
+
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Enviar"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@color/blue"
+        >
+
+
+
+    </Button>
+
+
+
+</LinearLayout>

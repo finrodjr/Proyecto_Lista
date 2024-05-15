@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Proyecto_lista</string>
+    <string name="titulo">Lista de datos</string>
+    <string name="name">Nombre Completo:</string>
+    <string name="contacto">Descripcion del contacto:</string>
+    <string name="birth">Fecha de nacimiento: DD/MM/AAAA</string>
+
+</resources>
